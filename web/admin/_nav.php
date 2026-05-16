@@ -1,0 +1,2 @@
+<?php require_once '../config/auth.php'; require_role('admin'); ?>
+<div class="sidebar"><a class="brand">FitLife Admin</a><a class="<?=active('dashboard.php')?>" href="dashboard.php">📊 Dashboard</a><a class="<?=active('members.php')?>" href="members.php">👥 Members</a><a class="<?=active('plans.php')?>" href="plans.php">💳 Plans & Payments</a><a class="<?=active('classes.php')?>" href="classes.php">📅 Classes</a><a class="<?=active('health.php')?>" href="health.php">🩺 Health Records</a><a href="../logout.php">🚪 Logout</a></div>

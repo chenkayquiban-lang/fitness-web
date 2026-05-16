@@ -1,0 +1,10 @@
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.db
+*.cache
+*.bin
+desktop.ini
+Thumbs.db

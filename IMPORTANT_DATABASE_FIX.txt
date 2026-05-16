@@ -1,0 +1,7 @@
+If dashboard shows a database schema error:
+1. Open phpMyAdmin.
+2. Drop/delete database: fitlife_db.
+3. Import: web/database/RESET_AND_IMPORT_fitlife_db.sql.
+4. Login at: http://localhost/fitness-web-main/web/login.php
+Username: user
+Password: user123
