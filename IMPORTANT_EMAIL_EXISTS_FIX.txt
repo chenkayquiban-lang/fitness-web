@@ -1,0 +1,11 @@
+FIX INCLUDED:
+- web/admin/members.php now handles hidden existing users.
+- If an email exists in users table but has no member details, Add Member will update/complete it instead of showing "Email already exists".
+- It also shows the actual role if the email already belongs to admin/trainer.
+
+UPLOAD/REPLACE THIS FILE ON HOSTING:
+web/admin/members.php
+
+OPTIONAL DATABASE REPAIR:
+If the problem is caused by old blank usernames, run this SQL in phpMyAdmin:
+web/database/FIX_EMAIL_ALREADY_EXISTS.sql
